@@ -1,0 +1,36 @@
+.venv/
+python_deps/
+__pycache__/
+*.pyc
+
+# Local datasets and caches are too large for GitHub
+fiftyone_db/
+fiftyone_zoo/
+openimages_*/
+E:/animal_datasets/
+
+# Runtime logs and temporary renders
+*.log
+report_render/
+
+# Downloaded base weights
+yolo*.pt
+
+# Ignore all training runs by default; keep only final selected artifacts
+runs/*
+!runs/animal_openimages3000_yolov8n_e20_gpu/
+runs/animal_openimages3000_yolov8n_e20_gpu/*
+!runs/animal_openimages3000_yolov8n_e20_gpu/weights/
+runs/animal_openimages3000_yolov8n_e20_gpu/weights/*
+!runs/animal_openimages3000_yolov8n_e20_gpu/weights/best.pt
+!runs/animal_openimages3000_yolov8n_e20_gpu/results.csv
+!runs/animal_openimages3000_yolov8n_e20_gpu/results.png
+!runs/animal_openimages3000_yolov8n_e20_gpu/confusion_matrix_normalized.png
+!runs/animal_openimages3000_yolov8n_e20_gpu/labels.jpg
+!runs/animal_openimages3000_yolov8n_e20_gpu/train_batch0.jpg
+!runs/animal_openimages3000_yolov8n_e20_gpu/val_batch0_pred.jpg
+!runs/animal_openimages3000_yolov8n_e20_gpu/val_batch0_labels.jpg
+
+# Reproducible package artifacts
+StudentName-1_StudentName-2_project.zip
+StudentName-1_StudentName-2_project_code.zip

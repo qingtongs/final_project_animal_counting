@@ -1,0 +1,19 @@
+{
+  "precision": 0.60645,
+  "recall": 0.33862,
+  "map50": 0.29652,
+  "map5095": 0.23838,
+  "train_box_loss": 0.86756,
+  "train_cls_loss": 1.97677,
+  "train_dfl_loss": 1.09427,
+  "dataset": "Open Images V7 subset exported to YOLO format",
+  "train_images": 600,
+  "val_images": 150,
+  "epochs": 10,
+  "model": "YOLOv8n pretrained -> 20-class animal head",
+  "weights": "E:\\Final_Project_Animal_Counting\\runs\\animal_openimages_yolov8n_e10_gpu\\weights\\best.pt",
+  "project_val_best_conf": 0.05,
+  "project_val_score_after_training": 19.58,
+  "project_val_score_yoloworld_zero_shot": 37.58,
+  "note": "Fine-tuning improved Open Images bbox metrics but did not improve the synthetic validation-set dictionary score because of domain shift."
+}
