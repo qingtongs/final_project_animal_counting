@@ -75,6 +75,55 @@ Best weights:
 runs/animal_openimages3000_yolov8n_e20_gpu/weights/best.pt
 ```
 
+## Fine-tune with Extra Data
+
+The `extradata` folder is prepared for later fine-tuning:
+
+```text
+extradata/
+  animal_extradata.yaml
+  classes.txt
+  images/train/
+  images/val/
+  labels/train/
+  labels/val/
+```
+
+Put new labeled images into `extradata/images/train` and
+`extradata/images/val`. Put matching YOLO label files into
+`extradata/labels/train` and `extradata/labels/val`.
+
+Each image needs a matching `.txt` label file with the same base name:
+
+```text
+images/train/dog_001.jpg
+labels/train/dog_001.txt
+```
+
+Label format:
+
+```text
+class_id x_center y_center width height
+```
+
+Class IDs must follow `extradata/classes.txt`.
+
+Fine-tune from the current large-run model:
+
+```powershell
+E:\Final_Project_Animal_Counting\.venv\Scripts\python.exe finetune_extra.py --epochs 10 --imgsz 512 --batch 16 --device 0
+```
+
+The fine-tuned model will be saved to:
+
+```text
+runs/animal_extradata_finetune/weights/best.pt
+```
+
+Evaluate with the fine-tuned model by editing `animal_counting.py` to use the
+new weight path, or by loading this weight in the inference script you use for
+submission.
+
 ## Validation Format Check
 
 The provided validation set includes `ground_truth.json`, so this command creates a

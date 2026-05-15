@@ -8,6 +8,14 @@ fiftyone_db/
 fiftyone_zoo/
 openimages_*/
 E:/animal_datasets/
+extradata/images/train/*
+extradata/images/val/*
+extradata/labels/train/*
+extradata/labels/val/*
+!extradata/images/train/.gitkeep
+!extradata/images/val/.gitkeep
+!extradata/labels/train/.gitkeep
+!extradata/labels/val/.gitkeep
 
 # Runtime logs and temporary renders
 *.log
