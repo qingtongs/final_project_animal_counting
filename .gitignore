@@ -12,6 +12,12 @@ E:/animal_datasets/
 # Runtime logs and temporary renders
 *.log
 report_render/
+detect_conf_*.json
+detect_smoke_predictions.json
+trained_val_predictions_conf_*.json
+trained3000_val_predictions_conf_*.json
+!trained3000_val_predictions_conf_0.15.json
+val_predictions.json
 
 # Downloaded base weights
 yolo*.pt
