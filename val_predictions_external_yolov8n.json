@@ -1,0 +1,42 @@
+{
+  "val_1.png": {
+    "goat": 3,
+    "lion": 2
+  },
+  "val_10.png": {
+    "goat": 2
+  },
+  "val_2.png": {
+    "lion": 3
+  },
+  "val_3.png": {
+    "goat": 1,
+    "lion": 3
+  },
+  "val_4.png": {
+    "lion": 2,
+    "zebra": 2
+  },
+  "val_5.png": {
+    "goat": 1,
+    "horse": 1,
+    "lion": 1
+  },
+  "val_6.png": {
+    "goat": 2,
+    "lion": 2
+  },
+  "val_7.png": {
+    "cow": 1,
+    "goat": 4,
+    "zebra": 1
+  },
+  "val_8.png": {
+    "goat": 2,
+    "horse": 1,
+    "zebra": 1
+  },
+  "val_9.png": {
+    "lion": 3
+  }
+}

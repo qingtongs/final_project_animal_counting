@@ -1,0 +1,51 @@
+{
+  "val_1.png": {
+    "goose": 1,
+    "lion": 2,
+    "tiger": 2
+  },
+  "val_10.png": {
+    "chicken": 1,
+    "goose": 1,
+    "monkey": 1,
+    "sheep": 1
+  },
+  "val_2.png": {
+    "goose": 1,
+    "lion": 3
+  },
+  "val_3.png": {
+    "goose": 2,
+    "lion": 2
+  },
+  "val_4.png": {
+    "lion": 1,
+    "tiger": 1,
+    "zebra": 1
+  },
+  "val_5.png": {
+    "horse": 1,
+    "lion": 1,
+    "sheep": 1,
+    "tiger": 2
+  },
+  "val_6.png": {
+    "horse": 1,
+    "lion": 1,
+    "tiger": 3
+  },
+  "val_7.png": {
+    "cow": 2,
+    "horse": 1,
+    "pig": 1,
+    "tiger": 1
+  },
+  "val_8.png": {
+    "fox": 1,
+    "horse": 1,
+    "zebra": 1
+  },
+  "val_9.png": {
+    "lion": 3
+  }
+}
